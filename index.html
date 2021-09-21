@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        .container {
+            height: 73vh;
+            width: 80vw;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        #img {
+            height: 70vh;
+            width: 40vw;
+        }
+        
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center">JavaScript Animation</h2>
+    <div class="container">
+        <img id="img" src="./img/img.jpg" alt="image-jpg" />
+    </div>
+    <div class="btn">
+        <button type="button" onclick="document.getElementById('img').src='./img/img.gif'">
+        Click Me
+      </button>
+    </div>
+</body>
+
+</html>
